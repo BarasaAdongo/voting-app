@@ -8,7 +8,6 @@ import {
   IconButton,
   Box,
   Typography,
-  useTheme,
   AppBar,
   Toolbar,
 } from '@mui/material';
@@ -22,7 +21,6 @@ const drawerWidth = 240;
 
 function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const theme = useTheme();
   const location = useLocation();
 
   const handleDrawerToggle = () => {
